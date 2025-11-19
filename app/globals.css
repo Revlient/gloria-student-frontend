@@ -59,6 +59,12 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+
+  @media (width <= 640px) {
+    html {
+      font-size: clamp(13px, 3.8vw, 16px);
+    }
+  }
 }
 
 .manrope {
