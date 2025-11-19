@@ -314,7 +314,7 @@ export default function ProfilePage() {
 
       {/* Confirmation Dialog */}
       <Dialog open={showConfirm} onOpenChange={setShowConfirm}>
-        <DialogContent className="sm:max-w-[425px]">
+        <DialogContent className="sm:max-w-[425px] bottom-0 top-auto translate-y-0 sm:top-1/2 sm:-translate-y-1/2 sm:bottom-auto w-screen">
           <DialogHeader>
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-red-100 mb-4">
               <Trash2 className="h-6 w-6 text-red-600" />
