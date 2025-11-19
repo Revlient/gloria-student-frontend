@@ -106,7 +106,7 @@ export default function LoginPage() {
       </div>
 
       {/* RIGHT SIDE: Interactive Form */}
-      <div className="flex items-center justify-center bg-background py-12 px-10 min-h-screen">
+      <div className="flex items-center justify-center bg-background py-12 px-10 min-h-[100dvh]">
         <div className="w-full max-w-[400px] space-y-6">
           {/* Header */}
           <div className="flex flex-col space-y-2 text-center">
